@@ -2,5 +2,23 @@ Anotações JAVA
 
 Sempre começar implementando as entidades que não possui dependência para existir 
 1. Iniciar pela criação da entidade(criada no pacote de entities)
+Quando existir um relacionamento muitos p muitos utilizar no lugar de List implementar código Set, pois o mesmo aplica o conceito
+de Conjunto, que não aceita repetições.
 
-Quando existir um relacionamento muitos p muitos
+2. Implementar o DTO - Objeto de tráfego de dados da tabela.
+Aplicar de acordo o modelo de negócio, métodos de busca, por referência de todos os campos, por id e por retorno de lista.
+
+3.Implementação das camadas de controle.
+
+  1.repositories
+  
+  2.services
+  
+  3.resources
+  
+  4.exceptions
+  
+  
+  
+  
+
