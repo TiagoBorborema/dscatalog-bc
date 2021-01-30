@@ -1,0 +1,6 @@
+Anotações JAVA
+
+Sempre começar implementando as entidades que não possui dependência para existir 
+1. Iniciar pela criação da entidade(criada no pacote de entities)
+
+Quando existir um relacionamento muitos p muitos
