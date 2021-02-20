@@ -1,6 +1,8 @@
 import React from 'react';
 import './styles.scss';
 import {ReactComponent as MainImage} from '../../core/assets/images/main-image.svg';
+import ButtonIcon from '../../core/components/Buttonicon';
+import {Link} from 'react-router-dom';
 const Home = ()=> (
     <div className="home-container">
         <div className="row home-content">
@@ -11,6 +13,9 @@ const Home = ()=> (
             <p className="text-subtitle">
                 Ajudaremos você a encontrar os melhores <br /> produtos disponíveis no mercado
             </p>
+            <Link to="/catalog">
+            <ButtonIcon text="Inicie agora a sua busca"/>
+            </Link>
             </div>
             <div className="col-6">
                 <MainImage className="main-image" />
