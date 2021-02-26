@@ -7,7 +7,7 @@ const Navbar = () =>(
 
     <nav className="row bg-primary main-nav">
         <div className="col-2">
-            <Link to="l/" className="nav-logo-text">
+            <Link to="/" className="nav-logo-text">
             <h4>Ds Catalog</h4>
             </Link>
         </div>
